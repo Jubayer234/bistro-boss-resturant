@@ -10,19 +10,19 @@ const NavBar = () => {
       </p>
       <p className='text-white'>
           <NavLink className={({ isActive }) =>
-              isActive ? " underline text-[#EEFF25]" : ""} to="/addBook">Contact Us</NavLink>
+              isActive ? " underline text-[#EEFF25]" : ""} to="/contact">Contact Us</NavLink>
       </p>
       <p className='text-white'>
           <NavLink className={({ isActive }) =>
-              isActive ? " underline text-[#EEFF25]" : ""} to="/myCart">Dashboard</NavLink>
+              isActive ? " underline text-[#EEFF25]" : ""} to="/dashBoard">Dashboard</NavLink>
       </p>
       <p className='text-white'>
           <NavLink className={({ isActive }) =>
-              isActive ? " underline text-[#EEFF25]" : ""} to="/borrowedBooks">Our Menu</NavLink>
+              isActive ? " underline text-[#EEFF25]" : ""} to="/ourMenu">Our Menu</NavLink>
       </p>
       <p className='text-white'>
           <NavLink className={({ isActive }) =>
-              isActive ? " underline text-[#EEFF25]" : ""} to="/login">Our Shop</NavLink>
+              isActive ? " underline text-[#EEFF25]" : ""} to="/ourShop">Our Shop</NavLink>
       </p>
 
   </div>
